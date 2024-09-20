@@ -47,23 +47,19 @@ Bu uygulama, kullanıcıların günlük beslenme alışkanlıklarını takip etm
 
 ## N-Tier Mimarisi
 Bu proje, **N-Tier (Katmanlı Mimari)** ile geliştirilmiştir. Aşağıda katmanlar ve işlevleri açıklanmıştır:
-
-1. **Presentation Layer (Sunum Katmanı)**:
-    - Kullanıcıya arayüz sunar ve kullanıcı isteklerini işler.
-    - **ASP.NET Core MVC** kullanılarak geliştirilmiştir.
   
-2. **Business Logic Layer (İş Mantığı Katmanı)**:
+1. **Business Logic Layer (İş Mantığı Katmanı)**:
     - Veriler üzerinde iş kurallarını uygulayan katmandır.
     - SOLID prensiplerine göre dizayn edilmiştir.
   
-3. **Data Access Layer (Veri Erişim Katmanı)**:
+2. **Data Access Layer (Veri Erişim Katmanı)**:
     - Veritabanı işlemlerini gerçekleştiren katmandır.
     - **Entity Framework Core** kullanılarak geliştirilmiştir.
   
-4. **Entities Layer (Varlık Katmanı)**:
+3. **Entities Layer (Varlık Katmanı)**:
     - Veritabanı tablolarına karşılık gelen sınıfların tanımlandığı katmandır.
 
-5. ## UI (User Interface) Katmanı
+4. ## UI (User Interface) Katmanı
 UI katmanı, DeepFood Diary uygulamasında kullanıcıların etkileşimde bulunduğu görsel arayüzü sağlar. Bu katmanda kullanıcıların formlar aracılığıyla veri girişini gerçekleştirmesi, kullanıcı detaylarının görüntülenmesi, öğün ve besin kayıtlarının eklenmesi ve düzenlenmesi gibi işlemler yapılır. UI katmanında kullanılan formlar, verileri arka plandaki iş katmanına (business layer) göndererek kullanıcının girdiği bilgileri doğrular ve işleme alır.
 
 ### UI Katmanının İşlevleri:
