@@ -39,7 +39,7 @@ Bu uygulama, kullanıcıların günlük beslenme alışkanlıklarını takip etm
 - **Versiyon:** 10.x
 - **Açıklama:** Nesneler arası veri aktarımını kolaylaştıran bir haritalama aracıdır. DTO (Data Transfer Object) ve domain modelleri arasında veri dönüşümleri sağlar.
 
-### SQL Server
+### MSSQL Server
 - **Açıklama:** Uygulamanın veritabanı olarak kullanılır.
 
 ### Unit of Work ve Repository Tasarım Deseni
@@ -67,10 +67,7 @@ UI katmanı, DeepFood Diary uygulamasında kullanıcıların etkileşimde bulund
 - **Öğün ve Besin Takibi Formları:** Kullanıcılar, öğünlerine ekledikleri yiyeceklerin kalori ve besin değerlerini kolayca girebilir.
 - **Admin Yönetimi:** Admin kullanıcıları, kullanıcı hesaplarını yönetir ve sistemdeki verileri görüntüleyip düzenleyebilir.
 - **Dinamik Veri Görselleştirme:** Kullanıcı detayları ve öğün bilgileri gibi veriler, form alanlarında dinamik olarak sunulur.
-
-UI katmanı, uygulamanın görsel bileşenlerinin yanı sıra, kullanıcı deneyiminin kolaylaştırılması ve doğru veri akışının sağlanması için Bootstrap ve diğer CSS framework'leri ile desteklenmiştir.
-
-  
+ 
 Bu katmanlı yapı, projenin modüler, bakımı kolay ve ölçeklenebilir olmasını sağlar.
 
 ## Kullanılan Design Pattern'ler
