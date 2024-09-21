@@ -32,7 +32,7 @@ Bu uygulama, kullanıcıların günlük beslenme alışkanlıklarını takip etm
 ## Teknolojiler
 
 ### EF Core (Entity Framework Core)
-- **Versiyon:** 6.x
+- **Versiyon:** 8.0
 - **Açıklama:** Veritabanı işlemlerini kolaylaştırmak için kullanılan ORM (Nesne-İlişkisel Eşleme) aracıdır.
 
 ### AutoMapper
