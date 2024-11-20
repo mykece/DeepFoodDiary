@@ -212,4 +212,4 @@ Bu projede **SOLID** prensiplerine dikkat edilerek modüler ve esnek bir yapı o
 - UI katmanına sağ tıkla ve Set as Startup Project olarak ayarla
 - Package Manager Console aç, default project bölümünde DAL katmanını seç.
 - Package Manager Consola  add-migration initial  yazarak migration oluştur.
-- Daha sonra update-database diyerek code first olara veritabanını oluştur.
+- Daha sonra update-database diyerek code first olarak veritabanını oluştur.
