@@ -208,7 +208,7 @@ Bu projede **SOLID** prensiplerine dikkat edilerek modüler ve esnek bir yapı o
    "DefaultConnection": "Server=YOUR_SERVER_NAME;Database=DeepFoodDiaryDB;Trusted_Connection=True;"
 }
 #### Projenin Localde Çalıştırılması İçin Gerekenler:
-- Projedeki mevcut migration klasörünü sil
+- Projedeki mevcut migration klasörünü sil,
 - UI katmanına sağ tıkla ve Set as Startup Project olarak ayarla
 - Package Manager Console aç, default project bölümünde DAL katmanını seç.
 - Package Manager Consola  add-migration initial  yazarak migration oluştur.
